@@ -16,6 +16,10 @@ npm start
 
 The API listens on `http://localhost:3000` by default.
 
+For local-only binding, run with `HOST=127.0.0.1 npm start`. Container
+deployments should keep the default `0.0.0.0` bind address so platform health
+checks can reach the app.
+
 ## Endpoints
 
 ### Leaderboard Data

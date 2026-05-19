@@ -4,7 +4,7 @@ import express from "express";
 const app = express();
 
 const PORT = Number(process.env.PORT ?? 3000);
-const HOST = process.env.HOST ?? "127.0.0.1";
+const HOST = process.env.HOST ?? "0.0.0.0";
 const COLONIST_ORIGIN = "https://colonist.io";
 const DEFAULT_LIMIT = 100;
 const MAX_LIMIT = 100;
